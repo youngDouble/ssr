@@ -14,7 +14,7 @@ systemctl enable iptables
 # 保存防火墙规则
  service iptables save
 #需要选择的都选择y，都安装完了之后，，，最后一步
-wget -N --no-check-certificate https://github.com/youngDouble/ssr/blob/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh
+wget -N --no-check-certificate https://github.com/youngDouble/ssr/row/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh
 
 
 #按步骤完成安装，设置端口、密码、加密规则（aes-256-cfb），其他全部默认。
